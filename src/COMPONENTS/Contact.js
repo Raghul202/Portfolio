@@ -80,7 +80,7 @@ export default function Contact() {
                       href="mailto:raghul.m2.2002@gmail.com"
                       className="text-sm md:text-base text-white hover:text-cyan-400 transition-colors duration-300 break-all"
                     >
-                      raghul.m2.2002@gmail.com
+                      ABC@gmail.com
                     </a>
                   </div>
                 </div>
@@ -104,10 +104,10 @@ export default function Contact() {
                   <div>
                     <p className="text-xs md:text-sm text-gray-400">Phone</p>
                     <a
-                      href="tel:+917539951358"
+                      href="tel:+123456789"
                       className="text-sm md:text-base text-white hover:text-cyan-400 transition-colors duration-300"
                     >
-                      +91 7539951358
+                      +91 123456789
                     </a>
                   </div>
                 </div>
