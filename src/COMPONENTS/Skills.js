@@ -6,8 +6,6 @@ import css from "../ASSETS/css.png";
 import js from "../ASSETS/js.png";
 import react from "../ASSETS/react.png"; 
 import bootstrap from "../ASSETS/bootstrap.png";
-import whatsapp from "../ASSETS/whatsapp.png";
-import linkedin from "../ASSETS/linkedin.png";
 import github from "../ASSETS/github.png";
 
 
