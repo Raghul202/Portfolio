@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../ASSETS/html.png";
 import vscode from "../ASSETS/vscode.svg";
 import git from "../ASSETS/git.png";

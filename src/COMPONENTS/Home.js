@@ -1,4 +1,3 @@
-import React from "react";
 import vid from "../ASSETS/bg.mp4";
 
 export default function Home() {

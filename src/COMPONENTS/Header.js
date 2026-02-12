@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import favicon from "../ASSETS/R.png";
 
 export default function Header() {

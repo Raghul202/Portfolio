@@ -1,4 +1,3 @@
-import React from "react";
 import favicon from "../ASSETS/R.png";
 export default function About() {
   return (

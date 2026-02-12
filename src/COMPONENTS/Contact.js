@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import whatsapp from "../ASSETS/whatsapp.png";
 import linkedin from "../ASSETS/linkedin.png";

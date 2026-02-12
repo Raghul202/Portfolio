@@ -1,4 +1,3 @@
-import React from "react";
 import favicon from "../ASSETS/R.png";
 import linkedin from "../ASSETS/linkedin.png";
 import github from "../ASSETS/github.png";
@@ -6,7 +5,6 @@ import mail from "../ASSETS/mail.png";
 import whatsapp from "../ASSETS/whatsapp.png";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-gradient-to-b from-[#0a1628] to-[#050d1a] text-white border-t border-blue-500/20">
