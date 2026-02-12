@@ -75,45 +75,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-5 h-8 sm:w-6 sm:h-10 border-2 border-blue-400/50 rounded-full flex justify-center">
-          <div className="w-1 sm:w-1.5 h-2 sm:h-3 bg-blue-400 rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
-
-      <style jsx>{`
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        @keyframes gradient {
-          0%,
-          100% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-        }
-
-        .animate-fadeInUp {
-          animation: fadeInUp 1s ease-out;
-        }
-
-        .animate-gradient {
-          background-size: 200% auto;
-          animation: gradient 3s ease infinite;
-        }
-      `}</style>
     </section>
   );
 }
