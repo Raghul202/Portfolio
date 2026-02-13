@@ -26,7 +26,7 @@ export default function About() {
               <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-blue-400/30 shadow-2xl shadow-blue-500/50">
                 <div className="w-full h-full bg-gradient-to-br from-[#1a2845] to-[#0f1f3a] flex items-center justify-center">
                   <div className="text-7xl sm:text-8xl md:text-9xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-                    <img src={favicon} />
+                    <img src={favicon} alt="Raghul's logo" />
                   </div>
                 </div>
               </div>

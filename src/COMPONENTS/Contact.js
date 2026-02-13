@@ -8,9 +8,6 @@ import location from "../ASSETS/location.png"
 import phone from "../ASSETS/telephone.png"
 
 
-
-
-
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -94,7 +91,7 @@ export default function Contact() {
               <div className="space-y-5 md:space-y-6">
                 <div className="flex items-center gap-3 md:gap-4 group hover:translate-x-2 transition-transform duration-300">
                   <div className="w-12 h-12 md:w-14 md:h-14  rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
-                    <span className="text-white text-2xl md:text-3xl"><img src={mail} /></span>
+                    <span className="text-white text-2xl md:text-3xl"><img src={mail} alt="Email icon" className="w-10 h-10" /></span>
                   </div>
                   <div>
                     <p className="text-xs md:text-sm text-gray-400">Email</p>
@@ -102,14 +99,14 @@ export default function Contact() {
                       href="mailto:raghul.m2.2002@gmail.com"
                       className="text-sm md:text-base text-white hover:text-cyan-400 transition-colors duration-300 break-all"
                     >
-                      ABC@gmail.com
+                      raghul.m2.2002@gmal.com
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-3 md:gap-4 group hover:translate-x-2 transition-transform duration-300">
                   <div className="w-12 h-12 md:w-14 md:h-14  rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
-                    <span className="text-white text-2xl md:text-3xl"><img src={phone} /></span>
+                    <span className="text-white text-2xl md:text-3xl"><img src={phone} alt="Phone icon" className="w-10 h-10" /></span>
                   </div>
                   <div>
                     <p className="text-xs md:text-sm text-gray-400">Phone</p>
@@ -125,7 +122,7 @@ export default function Contact() {
 
                 <div className="flex items-center gap-3 md:gap-4 group hover:translate-x-2 transition-transform duration-300">
                   <div className="w-12 h-12 md:w-14 md:h-14  rounded-xl flex items-center justify-center shadow-lg  group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
-                    <span className="text-white text-2xl md:text-3xl"><img src={location} /></span>
+                    <span className="text-white text-2xl md:text-3xl"><img src={location} alt="Location icon" className="w-10 h-10" /></span>
                   </div>
                   <div>
                     <p className="text-xs md:text-sm text-gray-400">Location</p>
@@ -150,7 +147,7 @@ export default function Contact() {
                   className="w-11 h-11 md:w-12 md:h-12  rounded-lg flex items-center justify-center hover:scale-110 hover:rotate-6 transition-all duration-300 shadow-lg text-white text-xl md:text-2xl"
                   aria-label="LinkedIn"
                 >
-                  <img src={linkedin}/>
+                  <img src={linkedin} alt="LinkedIn icon"/>
                 </a>
 
                 <a
@@ -160,7 +157,7 @@ export default function Contact() {
                   className="w-11 h-11 md:w-12 md:h-12  rounded-lg flex items-center justify-center hover:scale-110 hover:rotate-6 transition-all duration-300 shadow-lg text-white text-xl md:text-2xl"
                   aria-label="GitHub"
                 >
-                  <img src={github}/>
+                  <img src={github} alt="GitHub icon" className="w-10 h-10"/>
                 </a>
 
                 <a
@@ -168,7 +165,7 @@ export default function Contact() {
                   className="w-11 h-11 md:w-12 md:h-12  rounded-lg flex items-center justify-center hover:scale-110 hover:rotate-6 transition-all duration-300 shadow-lg text-white text-xl md:text-2xl"
                   aria-label="Email"
                 >
-                  <img src={mail}/>
+                  <img src={mail} alt="Email icon" className="w-10 h-10"/>
                 </a>
 
                 <a
@@ -178,7 +175,7 @@ export default function Contact() {
                   className="w-11 h-11 md:w-12 md:h-12  rounded-lg flex items-center justify-center hover:scale-110 hover:rotate-6 transition-all duration-300 shadow-lg text-white text-xl md:text-2xl"
                   aria-label="WhatsApp"
                 >
-                  <img src={whatsapp} />
+                  <img src={whatsapp} alt="WhatsApp icon" className="w-10 h-10"/>
                 </a>
               </div>
             </div>

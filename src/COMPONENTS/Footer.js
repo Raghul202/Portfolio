@@ -3,6 +3,7 @@ import linkedin from "../ASSETS/linkedin.png";
 import github from "../ASSETS/github.png";
 import mail from "../ASSETS/mail.png";
 import whatsapp from "../ASSETS/whatsapp.png";
+import location from "../ASSETS/location.png"
 
 export default function Footer() {
 
@@ -14,7 +15,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 md:w-12 md:h-12  rounded-lg flex items-center justify-center shadow-lg ">
                 <span className="text-xl md:text-2xl font-bold text-white">
-                  <img src={favicon} />
+                  <img src={favicon} alt="Raghul's logo" />
                 </span>
               </div>
               <div>
@@ -85,55 +86,57 @@ export default function Footer() {
                 href="https://linkedin.com/in/raghul-m-792982245"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 md:w-10 md:h-10 bg-gradient-to-br from-[#1a2845] to-[#0f1f3a] border border-blue-500/30 
+                className="w-9 h-9 md:w-10 md:h-10
                          rounded-lg flex items-center justify-center 
                          hover:border-cyan-400 hover:scale-110 hover:-translate-y-1
-                         transition-all duration-300 shadow-lg hover:shadow-cyan-500/50"
+                         transition-all duration-300 shadow-lg"
                 aria-label="LinkedIn"
               >
-                <img src={linkedin} alt="LinkedIn" className="w-5 h-5" />
+                <img src={linkedin} alt="LinkedIn" className="w-10 h-10" />
               </a>
 
               <a
                 href="https://github.com/raghul202"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 md:w-10 md:h-10 bg-gradient-to-br from-[#1a2845] to-[#0f1f3a] border border-blue-500/30 
+                className="w-9 h-9 md:w-10 md:h-10 
                          rounded-lg flex items-center justify-center 
                          hover:border-cyan-400 hover:scale-110 hover:-translate-y-1
-                         transition-all duration-300 shadow-lg hover:shadow-cyan-500/50"
-                aria-label="GitHub"
+                         transition-all duration-300 shadow-lg "
               >
-                <img src={github} alt="GitHub" className="w-5 h-5" />
+                <img src={github} alt="GitHub" className="w-10 h-10" />
               </a>
 
               <a
                 href="mailto:raghul.m2.2002@gmail.com"
-                className="w-9 h-9 md:w-10 md:h-10 bg-gradient-to-br from-[#1a2845] to-[#0f1f3a] border border-blue-500/30 
+                className="w-9 h-9 md:w-10 md:h-10 
                          rounded-lg flex items-center justify-center 
                          hover:border-cyan-400 hover:scale-110 hover:-translate-y-1
-                         transition-all duration-300 shadow-lg hover:shadow-cyan-500/50"
+                         transition-all duration-300 shadow-lg"
                 aria-label="Email"
               >
-                <img src={mail} alt="Email" className="w-5 h-5" />
+                <img src={mail} alt="Email" className="w-10 h-10" />
               </a>
 
               <a
                 href="https://wa.me/917539951358"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 md:w-10 md:h-10 bg-gradient-to-br from-[#1a2845] to-[#0f1f3a] border border-blue-500/30 
+                className="w-9 h-9 md:w-10 md:h-10 
                          rounded-lg flex items-center justify-center 
                          hover:border-cyan-400 hover:scale-110 hover:-translate-y-1
-                         transition-all duration-300 shadow-lg hover:shadow-cyan-500/50"
+                         transition-all duration-300 shadow-lg"
                 aria-label="WhatsApp"
               >
-                <img src={whatsapp} alt="WhatsApp" className="w-5 h-5" />
+                <img src={whatsapp} alt="WhatsApp" className="w-10 h-10" />
               </a>
             </div>
             <div className="space-y-2">
               <p className="text-xs md:text-sm text-gray-400 flex items-center gap-2">
-                <span className="text-lg">📍</span>
+                <span className="text-lg w-9 h-9 md:w-10 md:h-10 
+                         rounded-lg flex items-center justify-center 
+                         hover:border-cyan-400 hover:scale-110 hover:-translate-y-1
+                         transition-all duration-300 shadow-lg "><img src={location} alt="Location icon"/></span>
                 Erode, Tamil Nadu
               </p>
               <p className="text-xs md:text-sm text-gray-400">

@@ -42,7 +42,7 @@ export default function Skills() {
             <div className="group bg-gradient-to-br from-[#1a2845]/80 to-[#0f1f3a]/80 border border-blue-500/20 rounded-2xl p-5 md:p-6 backdrop-blur-xl shadow-xl hover:shadow-cyan-500/30 hover:-translate-y-2 transition-all duration-500">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center text-xl md:text-2xl shadow-lg  group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                  <img src={html} />
+                  <img src={html} alt="HTML5 logo" />
                 </div>
                 <h4 className="text-base md:text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
                   HTML5
@@ -50,14 +50,14 @@ export default function Skills() {
               </div>
               <div className="relative h-2 bg-gray-700/50 rounded-full overflow-hidden">
                 <div className="h-full bg-gradient-to-r from-orange-500 to-red-500 rounded-full w-[99%] animate-pulse"></div>
-              </div>
+              </div>      
             </div>
 
             {/* CSS3 */}
             <div className="group bg-gradient-to-br from-[#1a2845]/80 to-[#0f1f3a]/80 border border-blue-500/20 rounded-2xl p-5 md:p-6 backdrop-blur-xl shadow-xl hover:shadow-cyan-500/30 hover:-translate-y-2 transition-all duration-500">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center text-xl md:text-2xl shadow-lg  group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                  <img src={css} />
+                  <img src={css} alt="CSS3 logo" />
                 </div>
                 <h4 className="text-base md:text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
                   CSS3
@@ -71,7 +71,7 @@ export default function Skills() {
             <div className="group bg-gradient-to-br from-[#1a2845]/80 to-[#0f1f3a]/80 border border-blue-500/20 rounded-2xl p-5 md:p-6 backdrop-blur-xl shadow-xl hover:shadow-cyan-500/30 hover:-translate-y-2 transition-all duration-500">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center text-xl md:text-2xl shadow-lg  group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                  <img src={js} />
+                  <img src={js} alt="JavaScript logo" />
                 </div>
                 <h4 className="text-base md:text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
                   JavaScript
@@ -96,7 +96,7 @@ export default function Skills() {
             <div className="group bg-gradient-to-br from-[#1a2845]/80 to-[#0f1f3a]/80 border border-blue-500/20 rounded-2xl p-5 md:p-6 backdrop-blur-xl shadow-xl hover:shadow-cyan-500/30 hover:-translate-y-2 transition-all duration-500">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center text-xl md:text-2xl shadow-lg  group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                  <img src={react} />
+                  <img src={react} alt="React logo" />
                 </div>
                 <h4 className="text-base md:text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
                   React.js
@@ -206,7 +206,7 @@ export default function Skills() {
             <div className="group bg-gradient-to-br from-[#1a2845]/80 to-[#0f1f3a]/80 border border-blue-500/20 rounded-2xl p-5 md:p-6 backdrop-blur-xl shadow-xl hover:shadow-cyan-500/30 hover:-translate-y-2 transition-all duration-500">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center text-xl md:text-2xl shadow-lg  group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                  <img src={git} />
+                  <img src={git} alt="Git logo" />
                 </div>
                 <h4 className="text-base md:text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
                   Git
@@ -236,7 +236,7 @@ export default function Skills() {
             <div className="group bg-gradient-to-br from-[#1a2845]/80 to-[#0f1f3a]/80 border border-blue-500/20 rounded-2xl p-5 md:p-6 backdrop-blur-xl shadow-xl hover:shadow-cyan-500/30 hover:-translate-y-2 transition-all duration-500">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center text-xl md:text-2xl shadow-lg  group-hover:scale-110 group-hover:rotate-12 transition-transform duration-500">
-                  <img src={vscode} />
+                  <img src={vscode} alt="VS Code logo" />
                 </div>
                 <h4 className="text-base md:text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
                   VS Code
